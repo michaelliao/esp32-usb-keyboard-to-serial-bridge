@@ -1,4 +1,4 @@
-# USB Keyboard To Serial
+# ESP32 USB Keyboard To Serial Bridge
 
 The USB Keyboard to Serial bridge enables ESP32S3 devices to function as a USB host for standard HID keyboards, translating key presses into ASCII characters and transmitting them via UART. This allows keyboard input to be routed to serial devices such as FPGAs, microcontrollers, or other systems that communicate over serial protocols.
 
