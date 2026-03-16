@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "type": "Rect",
+    "x": 11,
+    "y": 1,
+    "style": "normal",
+    "w": 14,
+    "h": 5,
+    "transparent": false,
+    "text": "PC",
+    "alignX": "center",
+    "alignY": "center",
+    "wrap": true
+  },
+  {
+    "id": 2,
+    "type": "Rect",
+    "x": 40,
+    "y": 1,
+    "style": "normal",
+    "w": 14,
+    "h": 5,
+    "transparent": false,
+    "text": "ESP32S3",
+    "alignX": "center",
+    "alignY": "center",
+    "wrap": true
+  },
+  {
+    "id": 3,
+    "type": "Line",
+    "x": 24,
+    "y": 3,
+    "style": "normal",
+    "x2": 40,
+    "y2": 3,
+    "startBinding": {
+      "nodeId": 1,
+      "side": "right"
+    },
+    "endBinding": {
+      "nodeId": 2,
+      "side": "left"
+    },
+    "startStyle": "arrow",
+    "endStyle": "arrow"
+  },
+  {
+    "id": 5,
+    "type": "Rect",
+    "x": 26,
+    "y": 4,
+    "style": "none",
+    "w": 13,
+    "h": 2,
+    "transparent": true,
+    "text": "TTL/3.3V",
+    "alignX": "center",
+    "alignY": "center",
+    "wrap": true
+  },
+  {
+    "id": 6,
+    "type": "Rect",
+    "x": 66,
+    "y": 1,
+    "style": "normal",
+    "w": 14,
+    "h": 5,
+    "transparent": false,
+    "text": "USB Keyboard",
+    "alignX": "center",
+    "alignY": "center",
+    "wrap": true
+  },
+  {
+    "id": 7,
+    "type": "Line",
+    "x": 53,
+    "y": 3,
+    "style": "normal",
+    "x2": 66,
+    "y2": 3,
+    "startBinding": {
+      "nodeId": 2,
+      "side": "right"
+    },
+    "endBinding": {
+      "nodeId": 6,
+      "side": "left"
+    },
+    "startStyle": "arrow",
+    "endStyle": "arrow"
+  },
+  {
+    "id": 8,
+    "type": "Rect",
+    "x": 55,
+    "y": 2,
+    "style": "none",
+    "w": 10,
+    "h": 2,
+    "transparent": true,
+    "text": "USB Port",
+    "alignX": "center",
+    "alignY": "center",
+    "wrap": true
+  },
+  {
+    "id": 9,
+    "type": "Rect",
+    "x": 26,
+    "y": 2,
+    "style": "none",
+    "w": 13,
+    "h": 2,
+    "transparent": true,
+    "text": "Serial Port",
+    "alignX": "center",
+    "alignY": "center",
+    "wrap": true
+  }
+]
